@@ -13,6 +13,11 @@ public class Uyg4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uyg4);
 
+        char karakter='a';
+        int ascii =(int) karakter;
+        System.out.println("Karakter:  " + karakter);
+        System.out.println("ASCII kodu:  " + ascii);
+
         boolean degisken1= true;
         System.out.println(degisken1);
 
