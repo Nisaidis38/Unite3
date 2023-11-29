@@ -46,4 +46,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Goldsoru.class);
         startActivity(i);
     }
+
+    public void uyg6(View view) {
+        Intent i=new Intent(MainActivity.this,Uyg6.class);
+        startActivity(i);
+    }
 }
